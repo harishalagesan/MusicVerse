@@ -1,0 +1,240 @@
+@import "font-awesome.min.css";
+@import "materialize.min.css";
+@import "carousal.css";
+html { width: 100%; height:100%; overflow-y: scroll; overflow-x:hidden; }
+
+
+
+.userN{
+    width : 30%;
+
+}
+
+.passW{
+
+    width : 30%;
+
+}
+
+.register_user{
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.errordisplay{
+
+    font-size: 20px;
+}
+
+.login_user{
+
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.genre{
+
+    height: 750px;
+    width:100%;
+}
+
+.rock_class{
+    
+    width: 300px;
+    height:300px;
+    margin-top: 1em;
+    margin-left: 2em;
+    background: url(../../main/images/Rock_index.jpg);
+}
+
+.jazz_class{
+
+    width: 300px;
+    height:300px;
+    margin-top: 1em;
+    margin-left: 2em;
+    background: url(../../main/images/jazz_index.png);
+}
+
+.trance_class{
+
+    width: 300px;
+    height:300px;
+    margin-top: 1em;
+    margin-left: 2em;
+    background: url(../../main/images/trance_index.jpg);
+}
+
+.hiphop_class{
+
+    width: 300px;
+    height:300px;
+    margin-top: 1em;
+    margin-left: 2em;
+    background: url(../../main/images/hiphop_index.jpg);
+}
+
+.blues_class{
+
+    width: 300px;
+    height:300px;
+    margin-top: 1em;
+    margin-left: 2em;
+    background: url(../../main/images/blues_index.jpg);
+}
+
+.pop_class{
+
+    width: 300px;
+    height:300px;
+    margin-top: 1em;
+    margin-left: 2em;
+    background: url(../../main/images/pop_index.jpg);
+}
+
+.deathmetal_class{
+
+    width: 300px;
+    height:300px;
+    margin-top: 1em;
+    margin-left: 2em;
+    background: url(../../main/images/deathmetal_index.jpg);
+}
+
+.rap_class{
+
+    width: 300px;
+    height:300px;
+    margin-top: 1em;
+    margin-left: 2em;
+    background: url(../../main/images/rap_index.png);
+}
+
+.heading {
+    color: blue;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+
+
+img.aleft {
+    float: left;
+    width: 180px;
+    height: 180px;
+    margin-right: 1em;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+img.shipaleft {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-right: 1em;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+div.aleft {
+    clear: both;
+    float: left;
+}
+
+
+
+.clear {
+    clear: both;
+}
+
+#items{
+    margin-bottom:2em;
+}
+
+/*#shipitems{*/
+    /*margin-bottom:2em;*/
+    /*width:40%;*/
+/*}*/
+
+
+/*#shipaddr_item{*/
+
+
+    /*margin-bottom:2em;*/
+    /*width:40%;*/
+
+
+/*}*/
+
+/*#shipdays{*/
+
+    /*float : right;*/
+    /*width:40%;*/
+/*}*/
+
+
+
+#items h2{
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+#shipitems h2{
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+.one_item {
+    padding: 30px;
+}
+
+.shipone_item{
+
+    padding: 20px;
+}
+.one_item h3{
+    margin-bottom:0;
+    padding-bottom:0;
+    color:green;
+}
+
+.shipone_item h3{
+    margin-bottom:0;
+    padding-bottom:0;
+    color:green;
+}
+
+.one_item p{
+    margin-top:0;
+    padding-top:.5em;
+}
+
+.shipone_item p{
+    margin-top:0;
+
+}
+
+.one_item{
+    border-bottom:1px solid gray;
+}
+
+.shipone_item{
+    border-bottom:1px solid gray;
+}
+
+.box, #sales, #items , #shipitems, #shipaddr_item, #shipdays, #shipcarditems{
+    -moz-box-shadow: 0 0 10px #000000;
+    -webkit-box-shadow:0 0 10px #000000;
+    box-shadow:0 0 10px #000000;
+    padding: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
+
